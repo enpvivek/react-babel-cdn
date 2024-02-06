@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>React CDN Website</title>
   </head>
   <body>
     <div id="root"></div>
@@ -23,24 +24,6 @@
     ></script>
 
     <!-- Writing React code -->
-    <script type="text/babel">
-      // function to create Button in React
-      function MyButton() {
-        return <button>I'm a button</button>;
-      }
-
-      // Creating H1 with button
-      function MyApp() {
-        return (
-          <div>
-            <h1>Welcome to my app</h1>
-            <img className="avatar" />
-            <MyButton />
-          </div>
-        );
-      }
-      // binding root div to react and rendering
-      ReactDOM.render(<MyApp />, document.getElementById("root"));
-    </script>
+    <script type="text/babel" src="./App.js"></script>
   </body>
 </html>
